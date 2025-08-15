@@ -18,6 +18,7 @@
     "cros": "^1.1.0",
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
+    "mern---think-board": "file:..",
     "mongoose": "^8.14.3"
   },
   "devDependencies": {

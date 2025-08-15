@@ -1,0 +1,21 @@
+{
+  "name": "mern---think-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix BACKEND && npm install --prefix FRONTEND && npm run build --prefix FRONTEND",
+    "start": "npm run start --prefix BACKEND"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VEERAVIGNESH-2005/ThinkBoard-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VEERAVIGNESH-2005/ThinkBoard-/issues"
+  },
+  "homepage": "https://github.com/VEERAVIGNESH-2005/ThinkBoard-#readme"
+}
