@@ -37,7 +37,7 @@ const NoteCard = ({ note , setNotes }) => {
                 {formatDate(new Date(note.createdAt))}  
             </span>
             <div className="flex items-center gap-1">
-                <button className="btn-xs text-while">
+                <button className="btn btn-xs text-while">
                   <PenSquareIcon className="size-4" />
                 </button>
               <button className="btn btn-ghost btn-xs text-error" onClick={(e) => handleDelete(e, note._id)}>
