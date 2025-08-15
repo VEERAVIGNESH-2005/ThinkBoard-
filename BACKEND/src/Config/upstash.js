@@ -10,7 +10,7 @@ const redis = Redis.fromEnv();
 
 const rateLimiter = new Ratelimit({
   redis: redis,
-  limiter: Ratelimit.slidingWindow(10, "20 s"), // 5 requests per 20 seconds
+  limiter: Ratelimit.slidingWindow(100, "60 s"), // 100 requests per 60 seconds
 });
 
 export default rateLimiter;
